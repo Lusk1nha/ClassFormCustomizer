@@ -1,0 +1,53 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://contoso.sharepoint.com/sites/mySite/_layouts/15/SPListForm.aspx",
+      "formCustomizer": {
+        "componentId": "061b1175-ad1c-4345-8afd-7ec8580a6aa6",
+        "PageType": 8,
+        "RootFolder": "/sites/mySite/Lists/MyList",
+        "properties": {
+          "sampleText": "Value"
+        }
+      }
+    },
+    "classFormCustomizer_NewForm": {
+      "pageUrl": "https://contoso.sharepoint.com/sites/mySite/_layouts/15/SPListForm.aspx",
+      "formCustomizer": {
+        "componentId": "061b1175-ad1c-4345-8afd-7ec8580a6aa6",
+        "PageType": 8,
+        "RootFolder": "/sites/mySite/Lists/MyList",
+        "properties": {
+          "sampleText": "Value"
+        }
+      }
+    },
+    "classFormCustomizer_EditForm": {
+      "pageUrl": "https://contoso.sharepoint.com/sites/mySite/_layouts/15/SPListForm.aspx",
+      "formCustomizer": {
+        "componentId": "061b1175-ad1c-4345-8afd-7ec8580a6aa6",
+        "PageType": 6,
+        "RootFolder": "/sites/mySite/Lists/MyList",
+        "ID": 1,
+        "properties": {
+          "sampleText": "Value"
+        }
+      }
+    },
+    "classFormCustomizer_ViewForm": {
+      "pageUrl": "https://contoso.sharepoint.com/sites/mySite/_layouts/15/SPListForm.aspx",
+      "formCustomizer": {
+        "componentId": "061b1175-ad1c-4345-8afd-7ec8580a6aa6",
+        "PageType": 4,
+        "RootFolder": "/sites/mySite/Lists/MyList",
+        "ID": 1,
+        "properties": {
+          "sampleText": "Value"
+        }
+      }
+    }
+  }
+}

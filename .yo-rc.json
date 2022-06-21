@@ -1,0 +1,17 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.15.0-rc.0",
+    "libraryName": "class-form-customizer",
+    "libraryId": "d51581c7-e11c-4a21-b359-0961c9a301af",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "ClassFormCustomizer",
+    "solutionShortDescription": "ClassFormCustomizer description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "extension",
+    "extensionType": "FormCustomizer"
+  }
+}

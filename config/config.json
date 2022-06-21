@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "class-form-customizer-form-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/classFormCustomizer/ClassFormCustomizerFormCustomizer.js",
+          "manifest": "./src/extensions/classFormCustomizer/ClassFormCustomizerFormCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ClassFormCustomizerFormCustomizerStrings": "lib/extensions/classFormCustomizer/loc/{locale}.js"
+  }
+}
