@@ -6,17 +6,10 @@ import {
   BaseFormCustomizer
 } from '@microsoft/sp-listview-extensibility';
 
-import ClassFormCustomizer, { IClassFormCustomizerProps } from './components/ClassFormCustomizer';
+import ClassFormCustomizer from './components/Form';
+import { IClassFormCustomizerFormCustomizerProperties } from './shared/props/IClassFormCustomizerFormCustomizerProperties';
+import { IFormProps } from './shared/props/IFormProps';
 
-/**
- * If your field customizer uses the ClientSideComponentProperties JSON input,
- * it will be deserialized into the BaseExtension.properties object.
- * You can define an interface to describe it.
- */
-export interface IClassFormCustomizerFormCustomizerProperties {
-  // This is an example; replace with your own property
-  sampleText?: string;
-}
 
 const LOG_SOURCE: string = 'ClassFormCustomizerFormCustomizer';
 
@@ -34,13 +27,13 @@ export default class ClassFormCustomizerFormCustomizer
   public render(): void {
     // Use this method to perform your custom rendering.
 
-    const classFormCustomizer: React.ReactElement<{}> =
+    const classFormCustomizer: React.ReactElement<IFormProps> =
       React.createElement(ClassFormCustomizer, {
         context: this.context,
         displayMode: this.displayMode,
         onSave: this._onSave,
         onClose: this._onClose
-       } as IClassFormCustomizerProps);
+       });
 
     ReactDOM.render(classFormCustomizer, this.domElement);
   }
