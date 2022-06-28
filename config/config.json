@@ -13,6 +13,6 @@
   },
   "externals": {},
   "localizedResources": {
-    "ClassFormCustomizerFormCustomizerStrings": "lib/extensions/classFormCustomizer/loc/{locale}.js"
+    "ClassFormCustomizerFormCustomizerStrings": "lib/extensions/classFormCustomizer/shared/loc/{locale}.js"
   }
 }

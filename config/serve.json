@@ -4,46 +4,51 @@
   "https": true,
   "serveConfigurations": {
     "default": {
-      "pageUrl": "https://contoso.sharepoint.com/sites/mySite/_layouts/15/SPListForm.aspx",
+      "pageUrl": "https://classsolutions.sharepoint.com/sites/SitedeEstudosLucasPedroDaHoraModerno/_layouts/15/SPListForm.aspx",
       "formCustomizer": {
         "componentId": "061b1175-ad1c-4345-8afd-7ec8580a6aa6",
         "PageType": 8,
-        "RootFolder": "/sites/mySite/Lists/MyList",
+        "RootFolder": "/sites/SitedeEstudosLucasPedroDaHoraModerno/BibliotecaComum",
+        "ContentTypeID": "0x0101000C88A9306F979E4EB010650E7CF2A288",
+        "ID": 1,
         "properties": {
           "sampleText": "Value"
         }
       }
     },
     "classFormCustomizer_NewForm": {
-      "pageUrl": "https://contoso.sharepoint.com/sites/mySite/_layouts/15/SPListForm.aspx",
+      "pageUrl": "https://classsolutions.sharepoint.com/sites/SitedeEstudosLucasPedroDaHoraModerno/_layouts/15/SPListForm.aspx",
       "formCustomizer": {
         "componentId": "061b1175-ad1c-4345-8afd-7ec8580a6aa6",
         "PageType": 8,
-        "RootFolder": "/sites/mySite/Lists/MyList",
+        "RootFolder": "/sites/SitedeEstudosLucasPedroDaHoraModerno/BibliotecaComum",
+        "ContentTypeID": "0x0101000C88A9306F979E4EB010650E7CF2A288",
         "properties": {
           "sampleText": "Value"
         }
       }
     },
     "classFormCustomizer_EditForm": {
-      "pageUrl": "https://contoso.sharepoint.com/sites/mySite/_layouts/15/SPListForm.aspx",
+      "pageUrl": "https://classsolutions.sharepoint.com/sites/SitedeEstudosLucasPedroDaHoraModerno/_layouts/15/SPListForm.aspx",
       "formCustomizer": {
         "componentId": "061b1175-ad1c-4345-8afd-7ec8580a6aa6",
         "PageType": 6,
-        "RootFolder": "/sites/mySite/Lists/MyList",
+        "RootFolder": "/sites/SitedeEstudosLucasPedroDaHoraModerno/BibliotecaComum",
         "ID": 1,
+        "ContentTypeID": "0x0101000C88A9306F979E4EB010650E7CF2A288",
         "properties": {
           "sampleText": "Value"
         }
       }
     },
     "classFormCustomizer_ViewForm": {
-      "pageUrl": "https://contoso.sharepoint.com/sites/mySite/_layouts/15/SPListForm.aspx",
+      "pageUrl": "https://classsolutions.sharepoint.com/sites/SitedeEstudosLucasPedroDaHoraModerno/_layouts/15/SPListForm.aspx",
       "formCustomizer": {
         "componentId": "061b1175-ad1c-4345-8afd-7ec8580a6aa6",
         "PageType": 4,
-        "RootFolder": "/sites/mySite/Lists/MyList",
+        "RootFolder": "/sites/SitedeEstudosLucasPedroDaHoraModerno/BibliotecaComum",
         "ID": 1,
+        "ContentTypeID": "0x0101000C88A9306F979E4EB010650E7CF2A288",
         "properties": {
           "sampleText": "Value"
         }

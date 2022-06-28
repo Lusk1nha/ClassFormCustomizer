@@ -13,4 +13,10 @@ build.rig.getTasks = function () {
   return result;
 };
 
+
+// ********* ADDED *******
+// disable tslint
+build.tslintCmd.enabled = false;
+// ********* ADDED *******
+
 build.initialize(require('gulp'));
