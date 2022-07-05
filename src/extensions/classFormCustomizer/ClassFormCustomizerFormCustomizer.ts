@@ -6,8 +6,6 @@ import {
   BaseFormCustomizer
 } from '@microsoft/sp-listview-extensibility';
 
-import { spfi, SPFI, SPFx } from "@pnp/sp";
-
 import Form from './components/Form';
 import { IFormProps } from './shared/props/IFormProps';
 import { IClassFormCustomizerFormCustomizerProperties } from './shared/props/IClassFormCustomizerFormCustomizerProperties';

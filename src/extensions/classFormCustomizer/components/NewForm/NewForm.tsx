@@ -1,16 +1,18 @@
-import { Guid } from '@microsoft/sp-core-library';
-import { FormCustomizerContext } from '@microsoft/sp-listview-extensibility';
+import { TextField } from 'office-ui-fabric-react';
 import * as React from 'react';
-
-interface INewFormProps {
-    listGUID: string | Guid;
-    context: FormCustomizerContext;
-}
+import { INewFormProps } from '../../shared/props/INewFormProps';
+import styles from '../Form.module.scss';
 
 export function NewForm(props: INewFormProps) {
 
     return (
-        <form>
+        <form className={styles.newForm}>
+            <TextField style={{
+                width: '100%',
+                background: 'red'
+            }} />
+            <TextField />
+            <TextField />
         </form>
     );
 }

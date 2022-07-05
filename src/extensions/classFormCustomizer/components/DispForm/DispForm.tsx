@@ -1,17 +1,16 @@
-import { Guid } from '@microsoft/sp-core-library';
-import { FormCustomizerContext } from '@microsoft/sp-listview-extensibility';
+import { TextField } from 'office-ui-fabric-react';
 import * as React from 'react';
+import { IDispFormProps } from '../../shared/props/IDispFormProps';
+import styles from '../Form.module.scss';
 
-interface IDispFormProps {
-    ID: number;
-    listGUID: string | Guid;
-    context: FormCustomizerContext;
-}
 
 export function DispForm(props: IDispFormProps) {
 
-    return (
-        <form>
+    return ( 
+        <form className={styles.dispForm}>
+            <TextField />
+            <TextField />
+            <TextField />
         </form>
     );
 }

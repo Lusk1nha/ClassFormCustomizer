@@ -33,14 +33,16 @@ export default function Form(props: IFormProps) {
 
   return (
     <section className={styles.classFormCustomizer}>
-      <>
-        Olá {props.context.pageContext.user.displayName},
-      </>
-      <div>
-        {
-          formSelector(props.displayMode)
-        }
-      </div>
+      <section className={styles.form}>
+        <div className={styles.formTitle}>
+          Cadastro de Automóveis
+        </div>
+        <div className={styles.formContent}>
+          {
+            formSelector(props.displayMode)
+          }
+        </div>
+      </section>
     </section>
   );
 }
