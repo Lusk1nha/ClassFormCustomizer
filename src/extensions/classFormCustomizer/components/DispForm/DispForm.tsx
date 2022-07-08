@@ -6,11 +6,11 @@ import styles from '../Form.module.scss';
 
 export function DispForm(props: IDispFormProps) {
 
-    return ( 
-        <form className={styles.dispForm}>
-            <TextField />
-            <TextField />
-            <TextField />
-        </form>
-    );
+  return (
+    <form className={styles.dispForm}>
+      <TextField />
+      <TextField />
+      <TextField />
+    </form>
+  );
 }

@@ -8,8 +8,8 @@
       "formCustomizer": {
         "componentId": "061b1175-ad1c-4345-8afd-7ec8580a6aa6",
         "PageType": 8,
-        "RootFolder": "/sites/SitedeEstudosLucasPedroDaHoraModerno/BibliotecaComum",
-        "ContentTypeID": "0x0101000C88A9306F979E4EB010650E7CF2A288",
+        "RootFolder": "/sites/SitedeEstudosLucasPedroDaHoraModerno/CadastroAutomoveis",
+        "ContentTypeID": "0x0101001F6D2CF0E17C0340BD5EBDECB3D73810",
         "ID": 1,
         "properties": {
           "sampleText": "Value"
@@ -21,8 +21,8 @@
       "formCustomizer": {
         "componentId": "061b1175-ad1c-4345-8afd-7ec8580a6aa6",
         "PageType": 8,
-        "RootFolder": "/sites/SitedeEstudosLucasPedroDaHoraModerno/BibliotecaComum",
-        "ContentTypeID": "0x0101000C88A9306F979E4EB010650E7CF2A288",
+        "RootFolder": "/sites/SitedeEstudosLucasPedroDaHoraModerno/CadastroAutomoveis",
+        "ContentTypeID": "0x0101001F6D2CF0E17C0340BD5EBDECB3D73810",
         "properties": {
           "sampleText": "Value"
         }
@@ -33,9 +33,9 @@
       "formCustomizer": {
         "componentId": "061b1175-ad1c-4345-8afd-7ec8580a6aa6",
         "PageType": 6,
-        "RootFolder": "/sites/SitedeEstudosLucasPedroDaHoraModerno/BibliotecaComum",
+        "RootFolder": "/sites/SitedeEstudosLucasPedroDaHoraModerno/CadastroAutomoveis",
         "ID": 1,
-        "ContentTypeID": "0x0101000C88A9306F979E4EB010650E7CF2A288",
+        "ContentTypeID": "0x0101001F6D2CF0E17C0340BD5EBDECB3D73810",
         "properties": {
           "sampleText": "Value"
         }
@@ -46,9 +46,9 @@
       "formCustomizer": {
         "componentId": "061b1175-ad1c-4345-8afd-7ec8580a6aa6",
         "PageType": 4,
-        "RootFolder": "/sites/SitedeEstudosLucasPedroDaHoraModerno/BibliotecaComum",
+        "RootFolder": "/sites/SitedeEstudosLucasPedroDaHoraModerno/CadastroAutomoveis",
         "ID": 1,
-        "ContentTypeID": "0x0101000C88A9306F979E4EB010650E7CF2A288",
+        "ContentTypeID": "0x0101001F6D2CF0E17C0340BD5EBDECB3D73810",
         "properties": {
           "sampleText": "Value"
         }

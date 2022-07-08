@@ -10,26 +10,34 @@ import Form from './components/Form';
 import { IFormProps } from './shared/props/IFormProps';
 import { IClassFormCustomizerFormCustomizerProperties } from './shared/props/IClassFormCustomizerFormCustomizerProperties';
 import { IItem } from '@pnp/sp/items';
-import SPService from './shared/services/SPService';
+import SPAutomoveisService from './shared/services/SPAutomoveisService';
+import SPMarcasService from './shared/services/Repositories/MarcasService';
+import SPModelosService from './shared/services/Repositories/ModelosService';
 
 const LOG_SOURCE: string = 'ClassFormCustomizerFormCustomizer';
 
 export default class ClassFormCustomizerFormCustomizer
   extends BaseFormCustomizer<IClassFormCustomizerFormCustomizerProperties> {
-    private spService: SPService = null;
+  private _spAutomoveisService: SPAutomoveisService = null;
+  private _spMarcas: SPMarcasService = null;
+  private _spModelos: SPModelosService = null;
 
   public onInit(): Promise<void> {
     Log.info(LOG_SOURCE, 'Activated ClassFormCustomizerFormCustomizer with properties:');
     Log.info(LOG_SOURCE, JSON.stringify(this.properties, undefined, 2));
 
-    this.spService = new SPService(this.context);
+    this._spAutomoveisService = new SPAutomoveisService(this.context);
+    this._spMarcas = new SPMarcasService(this.context);
+    this._spModelos = new SPModelosService(this.context);
 
     return Promise.resolve();
   }
 
   public async render(): Promise<void> {
-    let item: IItem | null = await this.spService.getItemByID(this.context.list.guid, this.context.itemId);
-    console.log(item);
+    let formItem: IItem | null = await this._spAutomoveisService.getItemByID(this.context.list.guid, this.context.itemId);
+    let marcas: IItem[] | null = await this._spMarcas.get();
+
+    console.log(marcas)
 
     const classFormCustomizer: React.ReactElement<{}> =
       React.createElement(Form, {

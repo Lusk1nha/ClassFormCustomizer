@@ -9,6 +9,7 @@
     "test": "gulp test"
   },
   "dependencies": {
+    "@fluentui/react": "^8.78.1",
     "@microsoft/decorators": "1.15.0-rc.0",
     "@microsoft/sp-core-library": "1.15.0-rc.0",
     "@microsoft/sp-listview-extensibility": "1.15.0-rc.0",

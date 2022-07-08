@@ -17,7 +17,7 @@ export default function Form(props: IFormProps) {
   const formSelector = (mode: FormDisplayMode): React.ReactNode => {
     let component;
 
-    switch(mode) {
+    switch (mode) {
       case FormDisplayMode.Display:
         component = <DispForm ID={props.itemID} listGUID={props.list.guid} context={props.context} />;
         break;
@@ -35,7 +35,7 @@ export default function Form(props: IFormProps) {
     <section className={styles.classFormCustomizer}>
       <section className={styles.form}>
         <div className={styles.formTitle}>
-          Cadastro de Automóveis
+          {props.list.title}
         </div>
         <div className={styles.formContent}>
           {

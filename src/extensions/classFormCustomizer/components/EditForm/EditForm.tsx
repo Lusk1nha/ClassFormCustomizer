@@ -6,11 +6,11 @@ import styles from '../Form.module.scss';
 
 export function EditForm(props: IEditFormProps) {
 
-    return (
-        <form className={styles.editForm}>
-            <TextField />
-            <TextField />
-            <TextField />
-        </form>
-    );
+  return (
+    <form className={styles.editForm}>
+      <TextField />
+      <TextField />
+      <TextField />
+    </form>
+  );
 }
