@@ -119,7 +119,7 @@ export function NewForm(props: INewFormProps) {
                      validate: (data: string) => {
                         return (
                            new Date(data) > new Date() ||
-                           "The date should be greater than today"
+                           "Essa data não pode ser menor que hoje"
                         );
                      }
                   }}
@@ -128,12 +128,19 @@ export function NewForm(props: INewFormProps) {
                   className={styles.field}
                   id={carEndRequestDate}
                   isRequired={true}
+                  minDate={new Date(Date.now() + ( 3600 * 1000 * 24))}
                   name={nameof<IFormProperties>("DataSaida")}
                   label={strings.DateEndFieldLabel}
                   placeholder={strings.DateEndFieldPlaceholder}
                   control={control}
                   rules={{
-                     required: strings.RequiredFieldMessage
+                     required: strings.RequiredFieldMessage,
+                     validate: (data: string) => {
+                        return (
+                           new Date(data) > new Date() ||
+                           "Essa data deve ter um dia entre a data inicial da solicitação"
+                        );
+                     }
                   }}
                />
             </StackItem>

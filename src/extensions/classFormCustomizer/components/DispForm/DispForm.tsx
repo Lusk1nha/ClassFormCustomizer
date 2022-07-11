@@ -43,6 +43,15 @@ export function DispForm(props: IDispFormProps) {
             width: '100%'
          }}>
             <StackItem className={styles.fieldContainer}>
+               <TextField
+                  className={styles.field}
+                  value={`${props.ID}`}
+                  label={"ID da solicitação"}
+                  disabled
+                  readOnly
+               />
+            </StackItem>
+            <StackItem className={styles.fieldContainer}>
                <ControlledTextField
                   className={styles.field}
                   required={true}
