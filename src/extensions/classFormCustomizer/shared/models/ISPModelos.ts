@@ -1,7 +1,7 @@
 export interface ISPModelos {
   Id: number,
   Title: string,
-  Marca: any,
+  MarcaId: number,
   Ativo: string,
   Created: any,
   Modified: any

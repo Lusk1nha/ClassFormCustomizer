@@ -1,58 +1,57 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
-  "port": 4321,
-  "https": true,
-  "serveConfigurations": {
-    "default": {
-      "pageUrl": "https://classsolutions.sharepoint.com/sites/SitedeEstudosLucasPedroDaHoraModerno/_layouts/15/SPListForm.aspx",
-      "formCustomizer": {
-        "componentId": "061b1175-ad1c-4345-8afd-7ec8580a6aa6",
-        "PageType": 8,
-        "RootFolder": "/sites/SitedeEstudosLucasPedroDaHoraModerno/CadastroAutomoveis",
-        "ContentTypeID": "0x0101001F6D2CF0E17C0340BD5EBDECB3D73810",
-        "ID": 1,
-        "properties": {
-          "sampleText": "Value"
-        }
+   "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+   "port": 4321,
+   "https": true,
+   "serveConfigurations": {
+      "default": {
+         "pageUrl": "https://classsolutions.sharepoint.com/sites/SitedeEstudosLucasPedroDaHoraModerno/_layouts/15/SPListForm.aspx",
+         "formCustomizer": {
+            "componentId": "061b1175-ad1c-4345-8afd-7ec8580a6aa6",
+            "PageType": 8,
+            "RootFolder": "/sites/SitedeEstudosLucasPedroDaHoraModerno/lists/SolicitacaoAutomoveis",
+            "ContentTypeID": "0x010006CB6B9D3D813B42A13EC21CAE02224200D069BBB387EFCE4DA5CA3940B896C8DF",
+            "properties": {
+               "sampleText": "Value"
+            }
+         }
+      },
+      "classFormCustomizer_NewForm": {
+         "pageUrl": "https://classsolutions.sharepoint.com/sites/SitedeEstudosLucasPedroDaHoraModerno/_layouts/15/SPListForm.aspx",
+         "formCustomizer": {
+            "componentId": "061b1175-ad1c-4345-8afd-7ec8580a6aa6",
+            "PageType": 8,
+            "RootFolder": "/sites/SitedeEstudosLucasPedroDaHoraModerno/lists/SolicitacaoAutomoveis",
+            "ContentTypeID": "0x010006CB6B9D3D813B42A13EC21CAE02224200D069BBB387EFCE4DA5CA3940B896C8DF",
+            "properties": {
+               "sampleText": "Value"
+            }
+         }
+      },
+      "classFormCustomizer_EditForm": {
+         "pageUrl": "https://classsolutions.sharepoint.com/sites/SitedeEstudosLucasPedroDaHoraModerno/_layouts/15/SPListForm.aspx",
+         "formCustomizer": {
+            "componentId": "061b1175-ad1c-4345-8afd-7ec8580a6aa6",
+            "PageType": 6,
+            "RootFolder": "/sites/SitedeEstudosLucasPedroDaHoraModerno/lists/SolicitacaoAutomoveis",
+            "ID": 1,
+            "ContentTypeID": "0x010006CB6B9D3D813B42A13EC21CAE02224200D069BBB387EFCE4DA5CA3940B896C8DF",
+            "properties": {
+               "sampleText": "Value"
+            }
+         }
+      },
+      "classFormCustomizer_ViewForm": {
+         "pageUrl": "https://classsolutions.sharepoint.com/sites/SitedeEstudosLucasPedroDaHoraModerno/_layouts/15/SPListForm.aspx",
+         "formCustomizer": {
+            "componentId": "061b1175-ad1c-4345-8afd-7ec8580a6aa6",
+            "PageType": 4,
+            "RootFolder": "/sites/SitedeEstudosLucasPedroDaHoraModerno/lists/SolicitacaoAutomoveis",
+            "ID": 1,
+            "ContentTypeID": "0x010006CB6B9D3D813B42A13EC21CAE02224200D069BBB387EFCE4DA5CA3940B896C8DF",
+            "properties": {
+               "sampleText": "Value"
+            }
+         }
       }
-    },
-    "classFormCustomizer_NewForm": {
-      "pageUrl": "https://classsolutions.sharepoint.com/sites/SitedeEstudosLucasPedroDaHoraModerno/_layouts/15/SPListForm.aspx",
-      "formCustomizer": {
-        "componentId": "061b1175-ad1c-4345-8afd-7ec8580a6aa6",
-        "PageType": 8,
-        "RootFolder": "/sites/SitedeEstudosLucasPedroDaHoraModerno/CadastroAutomoveis",
-        "ContentTypeID": "0x0101001F6D2CF0E17C0340BD5EBDECB3D73810",
-        "properties": {
-          "sampleText": "Value"
-        }
-      }
-    },
-    "classFormCustomizer_EditForm": {
-      "pageUrl": "https://classsolutions.sharepoint.com/sites/SitedeEstudosLucasPedroDaHoraModerno/_layouts/15/SPListForm.aspx",
-      "formCustomizer": {
-        "componentId": "061b1175-ad1c-4345-8afd-7ec8580a6aa6",
-        "PageType": 6,
-        "RootFolder": "/sites/SitedeEstudosLucasPedroDaHoraModerno/CadastroAutomoveis",
-        "ID": 1,
-        "ContentTypeID": "0x0101001F6D2CF0E17C0340BD5EBDECB3D73810",
-        "properties": {
-          "sampleText": "Value"
-        }
-      }
-    },
-    "classFormCustomizer_ViewForm": {
-      "pageUrl": "https://classsolutions.sharepoint.com/sites/SitedeEstudosLucasPedroDaHoraModerno/_layouts/15/SPListForm.aspx",
-      "formCustomizer": {
-        "componentId": "061b1175-ad1c-4345-8afd-7ec8580a6aa6",
-        "PageType": 4,
-        "RootFolder": "/sites/SitedeEstudosLucasPedroDaHoraModerno/CadastroAutomoveis",
-        "ID": 1,
-        "ContentTypeID": "0x0101001F6D2CF0E17C0340BD5EBDECB3D73810",
-        "properties": {
-          "sampleText": "Value"
-        }
-      }
-    }
-  }
+   }
 }

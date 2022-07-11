@@ -1,75 +1,120 @@
 .classFormCustomizer {
-  width: 100%;
-  height: 100%;
-  background-color: "[theme:white, default:#ffffff]";
-  color: "[theme:themePrimary, default:#0078d4]";
-  padding: 2rem;
+   width: 100%;
+   height: 100%;
+   background-color: "[theme:white, default:#ffffff]";
+   color: "[theme:themePrimary, default:#0078d4]";
+   padding: 2rem;
 
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
+   display: flex;
+   align-items: flex-start;
+   justify-content: center;
 
-  * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
+   * {
+      box-sizing: border-box;
+      margin: 0;
+   }
 
-  .form {
-    max-width: 1000px;
-    width: 100%;
-    height: auto;
-
-    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.3);
-
-    outline: hidden;
-    border-radius: 0.02rem;
-
-    .formTitle {
+   .form {
+      max-width: 900px;
       width: 100%;
-      height: 70px;
-      
+      height: auto;
+
+      box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.3);
+
+      outline: hidden;
+      border-radius: 0.02rem;
+
+      .formTitle {
+         width: 100%;
+         height: 70px;
+
+         display: flex;
+         align-items: center;
+
+         color: black;
+         font-size: 1.4rem;
+
+         padding: 1rem 2rem;
+      }
+
+      .formContent {
+         width: 100%;
+         height: 100%;
+         padding: 1rem 2rem 1rem;
+      }
+
+      .fieldContainer {
+         margin-bottom: 1rem;
+
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+
+         @media only screen and (max-width: 768px) {
+            flex-direction: column;
+         }
+      }
+
+      .field {
+         width: 100%;
+
+         &~.field {
+            margin-left: 2rem;
+            @media only screen and (max-width: 768px) {
+               margin-left: 0;
+               margin-bottom: 0.5rem;
+            }
+         }
+      }
+   }
+
+   .formButtonContainer {
+      width: 100%;
       display: flex;
       align-items: center;
+      justify-content: flex-end;
+      
+      margin-top: 1rem;
+   }
 
-      color: black;
-      font-size: 1.4rem;
+   .saveButton {
+      max-width: 150px;
+      width: 100%;
+      margin-right: 1rem;
+   }
+   
+   .deleteButton {
+      background-color: #d12800;
+      margin-right: 1rem;
+      border: none;
+      outline: none;
+   }
 
-      padding: 1rem 2rem;
-    }
-
-    .formContent {
+   .dispForm {
       width: 100%;
       height: 100%;
-      padding: 2.5rem;
-    }
-  }
 
-  .dispForm {
-    width: 100%;
-    height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+   }
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+   .editForm {
+      width: 100%;
+      height: 100%;
 
-  .editForm {
-    width: 100%;
-    height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+   }
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+   .newForm {
+      width: 100%;
+      height: 100%;
 
-  .newForm {
-    width: 100%;
-    height: 100%;
-
-    display: flex;
-    flex-flow: column wrap;
-    align-items: center;
-    justify-content: center;
-  }
+      display: flex;
+      flex-flow: column wrap;
+      align-items: center;
+      justify-content: center;
+   }
 }

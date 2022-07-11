@@ -3,7 +3,7 @@
   "solution": {
     "name": "class-form-customizer-client-side-solution",
     "id": "d51581c7-e11c-4a21-b359-0961c9a301af",
-    "version": "1.0.0.0",
+    "version": "1.0.0.1",
     "includeClientSideAssets": true,
     "skipFeatureDeployment": true,
     "isDomainIsolated": false,
@@ -30,7 +30,7 @@
         "title": "class-form-customizer Feature",
         "description": "The feature that activates elements of the class-form-customizer solution.",
         "id": "753e9b85-9858-4481-93ef-2f471680b1d3",
-        "version": "1.0.0.0"
+        "version": "1.0.0.1"
       }
     ]
   },
