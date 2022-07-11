@@ -21,6 +21,8 @@ define([], function () {
       "DateStartFieldPlaceholder": "Insert the initial date of the car rent",
       "DateStartFieldMinValidation": "The date start time must be greater than today",
       "DateEndFieldLabel": "Rent end date",
-      "DateEndFieldPlaceholder": "Insert the end date of the car rent"
+      "DateEndFieldPlaceholder": "Insert the end date of the car rent",
+      "RequestCommentLabel": "Request comment",
+      "RequestCommentPlaceholder": "Insert a request comment"
    }
 });

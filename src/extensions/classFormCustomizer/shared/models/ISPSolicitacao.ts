@@ -7,4 +7,5 @@ export interface ISPSolicitacao {
    Placa: number;
    DataEntrada: string | number;
    DataSaida: string | number;
+   SolicitacaoComentario: string | null;
 }

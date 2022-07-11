@@ -20,6 +20,8 @@ declare interface IClassFormCustomizerFormCustomizerStrings {
   DateStartFieldMinValidation: string;
   DateEndFieldLabel: string;
   DateEndFieldPlaceholder: string;
+  RequestCommentLabel: string;
+  RequestCommentPlaceholder: string;
   HasDriverLabel: string;
   HasDriverPlaceholder: string;
   HasDriverOptionYes: string;

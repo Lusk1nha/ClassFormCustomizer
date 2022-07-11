@@ -5,4 +5,5 @@ export interface IFormProperties {
    CarroId: number;
    DataEntrada: string | Date;
    DataSaida: string | Date;
+   SolicitacaoComentario: string | null;
 };

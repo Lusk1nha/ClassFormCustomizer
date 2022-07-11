@@ -11,17 +11,6 @@ import { ControlledDatePicker } from '../Inputs/ControlledInputs/ControlledDateP
 import { ControlledDropdown } from '../Inputs/ControlledInputs/ControlledDropdown';
 import { ControlledTextField } from '../Inputs/ControlledInputs/ControlledTextField';
 
-const TestDropdown = [
-   {
-      key: "1",
-      text: "Marca 1"
-   },
-   {
-      key: "2",
-      text: "Marca 2"
-   }
-] as IDropdownOption[]
-
 
 export function DispForm(props: IDispFormProps) {
    const { handleSubmit, control, watch, getValues } = useForm<IFormProperties, any>({
@@ -33,7 +22,8 @@ export function DispForm(props: IDispFormProps) {
          ModeloId: props.Item.ModeloId,
          CarroId: props.Item.CarroId,
          DataEntrada: new Date(props.Item.DataEntrada),
-         DataSaida: new Date(props.Item.DataSaida)
+         DataSaida: new Date(props.Item.DataSaida),
+         SolicitacaoComentario: props.Item.SolicitacaoComentario
       }
    });
 
@@ -143,6 +133,20 @@ export function DispForm(props: IDispFormProps) {
                   rules={{
                      required: strings.RequiredFieldMessage
                   }}
+               />
+            </StackItem>
+            <StackItem className={styles.fieldContainer}>
+               <ControlledTextField
+                  className={styles.field}
+                  name={nameof<IFormProperties>("SolicitacaoComentario")}
+                  label={strings.RequestCommentLabel}
+                  placeholder={strings.RequestCommentPlaceholder}
+                  control={control}
+                  multiline
+                  rows={4}
+                  disabled
+                  readOnly
+                  resizable={false}
                />
             </StackItem>
          </Stack>

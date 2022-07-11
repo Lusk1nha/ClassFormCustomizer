@@ -21,6 +21,8 @@ define([], function () {
     "DateStartFieldPlaceholder": "Informe a data inicial da solicitação",
     "DateStartFieldMinValidation": "A data inicial deve ser maior do que hoje",
     "DateEndFieldLabel": "Data de entrega do veículo",
-    "DateEndFieldPlaceholder": "Informe a data de entrega do veículo"
+    "DateEndFieldPlaceholder": "Informe a data de entrega do veículo",
+    "RequestCommentLabel": "Comentário a sua solicitação",
+    "RequestCommentPlaceholder": "Caso queira, adicione um comentário a sua solicitação"
   }
 });
